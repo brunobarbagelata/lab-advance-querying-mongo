@@ -54,6 +54,7 @@ LIMIT 10
 
 FILTER { founded_month: {$gt: 6}}
 LIMIT 1000
+NO PROJECT
 
 ### 12. All the companies founded before 2000 that have an acquisition amount of more than 10.000.000
 
